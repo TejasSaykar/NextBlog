@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.h1 {
+    margin: 10px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 250px;
+}
+
+.form .username,
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    padding: 10px 2px;
+}
+
+.form button {
+    padding: 8px 0px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1dbf73;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form span {
+    text-align: center;
+    font-size: 14px;
+}
+
+.form span a {
+    color: skyblue;
+    text-decoration: underline;
+    font-size: 14px;
+}

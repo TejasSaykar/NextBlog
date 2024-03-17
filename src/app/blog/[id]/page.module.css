@@ -1,0 +1,45 @@
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    margin-left: 1rem;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.desc,
+.text {
+    font-size: 14px;
+    color: #878383;
+    font-weight: 200;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.img {
+    object-fit: cover;
+}
